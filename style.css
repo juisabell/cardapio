@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+header{
+    height: 20vh;
+    background-image: url(/attachments/comida.svg);
+    display: flex;
+    flex-direction: column;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    color: #FFF;
+    font-size: 48px;
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav1{
+    width: 50vw;
+    border: 1px solid black;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.nav1_link{
+    text-decoration: none;
+    color: #FFF;
+
+}
